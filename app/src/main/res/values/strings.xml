@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">LightController</string>
+    <string name="setting_title">已配对设备列表（设备名/设备地址）：</string>
+    <string name="swicther_poweron">单击这里来打开灯泡</string>
+    <string name="swicther_poweroff">单击这里来关闭灯泡</string>
+    <string name="switcher_bright">单击这里来调节亮度</string>
+    <string name="switcher_lux">单击这里来调节照度</string>
+    <string name="bright_title">左右滑动来控制灯泡的亮度</string>
+    <string name="lux_title">左右滑动来控制灯泡的色温</string>
+    <string name="dialog_value_bright_title">输入亮度值（0到500的整数）：</string>
+    <string name="dialog_value_lux_title">输入色温值（3000到6000的整数）：</string>
+    <string name="dialog_value_bright_hint">单位：lx</string>
+    <string name="dialog_value_lux_hint">单位：K</string>
+    <string name="dialog_confirm">确定</string>
+    <string name="dialog_cancel">取消</string>
+</resources>

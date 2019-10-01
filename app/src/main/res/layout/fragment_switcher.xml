@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/colorWhite"
+    android:layout_gravity="center"
+    android:orientation="vertical">
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/switcher_power"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/swicther_poweron"
+        android:textColor="@color/colorBlack"
+        android:textSize="@dimen/switcher_fontsize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/switcher_bright"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/switcher_bright"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/switcher_fontsize" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorGray"/>
+
+    <Button
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:id="@+id/switcher_lux"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:enabled="false"
+        android:text="@string/switcher_lux"
+        android:textColor="@color/colorGray"
+        android:textSize="@dimen/switcher_fontsize" />
+
+</LinearLayout>
